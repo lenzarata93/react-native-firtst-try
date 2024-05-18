@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "expo-cli": "^6.3.10"
+    "expo-cli": "^6.3.10",
+    "expo-updates": "~0.16.4"
   }
 }
