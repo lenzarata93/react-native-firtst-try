@@ -10,13 +10,14 @@ import {
 } from "react-native";
 
 export default function App() {
+  const clickBtn =(e)=>console.log('Button is clicked');
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.text}>
         Open up App.js to start working on your app!
       </Text>
       <Image source={require("./assets/изтеглен файл.jpg")}></Image>
-      <TouchableOpacity style={styles.btn}>
+      <TouchableOpacity  onPress={clickBtn} style={styles.btn}>
         <Text style={styles.textBtn}>CLICK ME</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
