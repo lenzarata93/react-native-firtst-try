@@ -12,6 +12,7 @@ const LoginForm = () => {
       Alert.alert('Грешка', 'Моля, попълнете всички полета.');
       return;
     }
+    console.log(`Username : ${username} and pass : ${password}`)
     Alert.alert('Успех', `Потребител: ${username}, Парола: ${password}`);
   };
 
