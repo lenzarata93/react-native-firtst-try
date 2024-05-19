@@ -1,17 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import LoginForm from './frontend/Login'
 
-const App = () => {
+const Root = () => {
   return (
     <View style={styles.container}>
-      <Text>App</Text>
-      <LoginForm/>
+      <Text>Root</Text>
     </View>
   )
 }
 
-export default App
+export default Root
 
 const styles = StyleSheet.create({
   container: {
